@@ -3,9 +3,19 @@
     Original Author: Benjamin Krajancic
     Original Source Available at: https://github.com/BKrajancic/Code-Red-A-Firefox-Theme/
 */
+
 * {
-    --color-theme: #8b0000;
+    --color-theme: #8B0000;
     --color-theme-text: white;
+    
+    /* 
+    Allow for custom styling by editing below two variables. 
+    Firefox will fallback to dark red and white if the values aren't valid.
+    */
+
+    --color-theme:/*[[ACCENT]]*/;
+    --color-theme-text:/*[[TEXT]]*/;
+
     --urlbar-popupd-url-color: var(--color-theme);
     --color-theme-border: var(--color-theme);
     --in-content-primary-button-background: var(--color-theme);
@@ -25,8 +35,9 @@
 } 
 
 .titlebar-spacer{
-    width: 0 !important;
+    width: 16px !important;
 }
+
 .urlbar-input-box {
     min-width: 8ch !important;
 }
