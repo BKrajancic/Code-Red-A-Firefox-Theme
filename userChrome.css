@@ -1,0 +1,121 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+/*
+    Original Author: Benjamin Krajancic
+    Original Source Available at: https://github.com/BKrajancic/Code-Red-A-Firefox-Theme/
+*/
+* {
+    --color-theme: #8b0000;
+    --color-theme-text: white;
+    --urlbar-popupd-url-color: var(--color-theme);
+    --color-theme-border: var(--color-theme);
+    --in-content-primary-button-background: var(--color-theme);
+    --tab-line-color: var(--color-theme);
+    --toolbar-field-focus-border-color: var(--color-theme);
+    --color-light: rgb(0, 0, 0);
+    --chrome-selection-background-color: var(--color-theme);
+    --moz-selection-background-color: var(--color-theme);
+    --toolbarbutton-icon-fill-attention: var(--color-theme);
+    --autocomplete-popup-highlight-background: var(--color-theme) !important;
+    --in-content-border-highlight: var(--color-theme) !important;
+    --in-content-category-text-selected: var(--color-theme) !important;
+}
+
+.tabbrowser-tab[multiselected]:-moz-lwtheme, .tabbrowser-tab[visuallyselected="true"]:-moz-lwtheme {  
+    color: var(--color-theme-text) !important;
+} 
+
+.titlebar-spacer{
+    width: 0 !important;
+}
+.urlbar-input-box {
+    min-width: 8ch !important;
+}
+
+.toolbarbutton-badge.feature-callout {
+    filter: hue-rotate(160deg);
+}
+
+hbox.titlebar-spacer:nth-child(1) {
+    width: 12px !important;
+}
+
+#tabbrowser-tabs {
+    --tab-loading-fill: white !important;
+}
+
+#titlebar {
+    border-bottom-width: thin;
+    border-bottom-color: var(--color-theme);
+    border-bottom-style: solid;
+}
+
+#nav-bar:not([customizing="true"])>#nav-bar-customization-target>#urlbar-container:not(:hover)>#urlbar:not([focused])>#urlbar-input-container>.urlbar-history-dropmarker {
+    opacity: 1 !important;
+}
+
+#urlbar-input-container {
+    overflow: hidden !important;
+}
+
+.popup-notification-button[default][highlight="true"]:not([disabled]) {
+    background-color: var(--color-theme) !important;
+}
+
+#customization-done-button {
+    border-color: var(--color-theme-border) !important;
+    background-color: var(--color-theme) !important;
+}
+
+#forward-button:hover:not([disabled="true"])>.toolbarbutton-icon,
+#back-button:hover:not([disabled="true"])>.toolbarbutton-icon {
+    background-color: var(--color-theme) !important;
+    opacity: 0.75 !important;
+}
+
+#forward-button>.toolbarbutton-icon,
+#back-button>.toolbarbutton-icon {
+    background-color: var(--color-theme) !important;
+    border-radius: 10000px !important;
+    width: 32px !important;
+    height: 32px !important;
+    opacity: 1 !important;
+    border: 0px !important;
+    padding: 8px !important;
+    fill: white;
+}
+
+#back-button[disabled="true"],
+#forward-button[disabled="true"] {
+    opacity: 0.25 !important;
+    fill-opacity: 1 !Important;
+}
+
+#forward-button[disabled="true"]>.toolbarbutton-icon,
+#back-button[disabled="true"]>.toolbarbutton-icon {
+    background-color: black !important;
+}
+
+toolbar:-moz-lwtheme {
+    -moz-appearance: none !important;
+}
+
+.tab-text[selected="true"],
+tab-label[selected="true"] {
+    color: var(--color-theme-text);
+}
+
+.tab-background[selected="true"] {
+    background-color: var(--color-theme) !important;
+    background-image: none !important;
+}
+
+.autocomplete-richlistitem[selected],
+treechildren.searchbar-treebody::-moz-tree-row(selected) {
+    background-color: var(--color-theme) !important;
+}
+
+window#main-window toolbox#navigator-toolbox toolbar#TabsToolbar.titlebar-color.customization-target {
+    border-bottom: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: var(--color-theme);
+}
