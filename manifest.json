@@ -1,0 +1,40 @@
+{
+
+    "manifest_version": 2,
+    "name": "Code Red",
+    "version": "1.0",
+
+    "description": "A firefox theme for lovers of dark red.",
+
+    "theme": {
+        "colors": {
+            "frame": "#E3E4E6",
+            "frame_inactive": "#d7d7db",
+            "toolbar": "#F5F6F8",
+
+            "button_background_active": "#ffcccb",
+            "button_background_hover": "#ffcccb",
+
+            "icons": "#525355",
+            "icons_attention": "#8B0000",
+
+            "ntp_background": "#ffffff",
+            "ntp_text": "#000000",
+
+            "tab_background_text": "#000000",
+            "tab_line": "#8B0000",
+            "tab_loading": "#ffffff",
+            "tab_selected": "#8B0000",
+            "tab_text": "#ffffff",
+
+            "toolbar_top_separator": "#8B0000",
+            "toolbar_field_border_focus": "#8B0000",
+            "toolbar_field_highlight": "#ffcccb",
+            "toolbar_field_highlight_text": "#000000",
+
+            "popup": "#F5F6F8",
+            "popup_highlight": "#8B0000",
+            "popup_highlight_text": "#ffffff"
+        }
+    }
+}
