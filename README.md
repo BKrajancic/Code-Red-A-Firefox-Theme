@@ -1,5 +1,5 @@
 # Code-Red-A-Firefox-Theme
-Code Red is a Firefox userChrome.css theme for lovers of Dark Red, and inspired by Visual Studio Code. It is a combination of a firefox and userchrome.css theme. 
+Code Red is a Firefox userChrome.css theme for lovers of Dark Red, and inspired by Visual Studio Code. It is a combination of a firefox plugin and userchrome.css theme. 
 
 The firefox theme is available for download at: https://addons.mozilla.org/en-US/firefox/user/14082265/
 
