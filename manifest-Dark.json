@@ -1,29 +1,29 @@
 {
 
     "manifest_version": 2,
-    "name": "Code Red",
-    "version": "1.0",
-
+    "name": "Code Red (Dark)",
+    "version": "1.1",
+    "author": "Benjamin Krajancic",
     "description": "A firefox theme for lovers of dark red.",
 
     "theme": {
         "colors": {
-            "frame": "#E3E4E6",
-            "frame_inactive": "#d7d7db",
-            "toolbar": "#F5F6F8",
+            "frame": "#19191a",
+            "frame_inactive": "#232324",
+            "toolbar": "#080808",
 
             "button_background_active": "#ffcccb",
-            "button_background_hover": "#ffcccb",
+            "button_background_hover": "#8B0000",
 
-            "icons": "#525355",
+            "icons": "#bcc0c4",
             "icons_attention": "#8B0000",
 
-            "ntp_background": "#ffffff",
-            "ntp_text": "#000000",
+            "ntp_background": "#000000",
+            "ntp_text": "#ffffff",
 
-            "tab_background_text": "#000000",
+            "tab_background_text": "#ffffff",
             "tab_line": "#8B0000",
-            "tab_loading": "#ffffff",
+            "tab_loading": "#000",
             "tab_selected": "#8B0000",
             "tab_text": "#ffffff",
 
@@ -32,7 +32,8 @@
             "toolbar_field_highlight": "#ffcccb",
             "toolbar_field_highlight_text": "#000000",
 
-            "popup": "#F5F6F8",
+            "popup": "#080808",
+            "popup_text": "#ffffff",
             "popup_highlight": "#8B0000",
             "popup_highlight_text": "#ffffff"
         }
